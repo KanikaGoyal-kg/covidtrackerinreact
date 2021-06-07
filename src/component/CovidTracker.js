@@ -14,7 +14,25 @@ const CovidTracker = () => {
 
     return (
         <>
-        <h1>India Covid-19 Dashboard</h1>
+        <div className="container-fluid mt-5">
+            <div className="main-heading">
+                <h1 className="mb-5"><span className="font-weight-bold"> India </span>Covid-19 Dashboard</h1>
+            </div>
+            <div className="table-responsive">
+                <table className="table table-hover">
+                    <thead className="thead-dark">
+                        <tr>
+                            <th> State </th>
+                            <th> Confirmed </th>
+                            <th> recovered </th>
+                            <th> deaths </th>
+                            <th> active </th>
+                            <th> update </th>
+                        </tr>
+                    </thead>
+                </table>
+            </div>
+        </div>
         </>
     )
 }
