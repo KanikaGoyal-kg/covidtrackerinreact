@@ -13,7 +13,6 @@
 .table-responsive {
     max-height: 700px;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
-    background-color: black;
 }
 tr:hover {
     background-color: #ffa;
@@ -21,7 +20,6 @@ tr:hover {
 .thead-dark {
     font-weight: bold;
     text-transform: uppercase;
-    color: white;
 }
 .table tr td:hover {
     background-color: rgb(117, 223, 122);
